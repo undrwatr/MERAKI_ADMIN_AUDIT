@@ -1,0 +1,1 @@
+I have a bunch of orgs that I manage for Meraki and I have admins in all of them. This script easily goes through all of the orgs that I manage and then lists all of the admins. Makes it easier to find out who I need to clean up and who possibly needs to be added to an organization.
