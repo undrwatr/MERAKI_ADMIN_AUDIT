@@ -14,11 +14,6 @@ get_orgs_response = requests.request("GET", get_orgs_url, headers=headers)
 get_orgs_json = get_orgs_response.json()
 
 
-
-print("*" * 20)
-
-
-
 for z in get_orgs_json:
     org_id = z['id']
     get_admins_url = base_url + 'organizations/%s/admins' % org_id
